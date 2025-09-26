@@ -218,9 +218,56 @@ nav {
   border: 1px solid rgba(13, 19, 33, 0.2);
   border-radius: 16px;
   padding: 32px;
-  margin-bottom: 150px;
+  margin-bottom: 80px;
 }
 /* My Current Target */
+
+.current-content-conatiner {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.current-content-title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.current-content-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-bottom: 24px;
+  opacity: 0.7;
+}
+
+.current-skill {
+  width: 364px;
+  padding: 40px;
+  border-radius: 16px;
+  margin-bottom: 111px;
+}
+
+.html-bg {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.css-bg {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.js-bg {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
 
 /* My Next Target */
 
