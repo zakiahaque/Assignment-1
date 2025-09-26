@@ -1,0 +1,189 @@
+.azeret-mono {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #0d1321;
+}
+
+/* header section */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 150px 20px;
+}
+
+.nav-title {
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.download-resume {
+  font-size: 20px;
+  font-weight: 600;
+  min-height: 100%;
+  text-align: center;
+  gap: 10;
+  padding: 17px 24px 17px 24px;
+  border: 1px solid rgba(13, 19, 33, 1);
+  border-radius: 8px;
+  opacity: 0.8;
+}
+
+/* main or banner section */
+
+.banner {
+  background-image: url("../assets/Hero-bg.png");
+  padding: 26px 221px 44px 221px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-conatainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.banner-title {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 32px;
+  padding: 0 30px;
+}
+
+.banner-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 20px;
+  opacity: 0.7;
+  padding: 0 40px;
+}
+
+.contact-with-me {
+  border-radius: 8px;
+  background: rgba(13, 19, 33);
+  color: rgba(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+  padding: 17px 24px;
+  margin-top: 32px;
+}
+/* Why web develpment */
+
+/* My Inspiration */
+
+/* My Current Target */
+
+/* My Next Target */
+
+/* footer support section */
+
+.support {
+  margin: auto;
+  border-radius: 16px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/handshake.jpg");
+  background-position: center;
+  width: 1140px;
+  height: 320px;
+  border-radius: 16px;
+  padding: 70px 48px;
+  text-align: center;
+  margin: 50px 50 px;
+}
+
+.support-content {
+}
+
+.support-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 255, 255);
+}
+
+.support-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 255, 255);
+  opacity: 0.7;
+  margin-top: 16px;
+  padding: 0 219px;
+}
+
+#suggest-field {
+  width: 548px;
+  height: 57px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  padding: 19px 20px 19px 20px;
+  background: rgb(255, 255, 255);
+  color: rgba(13, 19, 33, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+#submit-btn {
+  color: rgb(13, 19, 33);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  width: 120px;
+  height: 58px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 17px 20px 17px 20px;
+  margin-top: 24px;
+}
+
+form input[type="submit"] {
+  cursor: pointer;
+}
+
+/* footer with social contact */
+
+.footer-social-contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  padding: 20px 280px;
+  margin-top: 100px;
+}
+
+.footer-description {
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.03);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 100%px;
+  letter-spacing: 0%;
+  text-align: center;
+}
