@@ -89,8 +89,8 @@ nav {
 /* Why web development */
 .why-web-dev {
   width: 1140px;
-  margin: 97px 249px 97px 245px;
-  padding: 80px 97px;
+  margin: 97px 249px 50px 245px;
+  padding: 80px 80px;
   border-radius: 16px;
   background: rgba(13, 19, 33, 0.03);
   align-items: center;
@@ -269,7 +269,79 @@ nav {
   background: rgba(255, 223, 0, 0.05);
 }
 
-/* My Next Target */
+/* My Next Target Section */
+.my-next-target {
+  width: 1140px;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.next-content-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.next-skill {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  padding: 40px;
+  border-radius: 16px;
+  background: #ffffff;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.next-skill .logo {
+  width: 100px;
+  height: auto;
+}
+
+.next-content-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.next-content-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+  margin-bottom: 16px;
+  max-width: 800px;
+}
+
+.learn-more2 {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: #0d1321;
+}
+.learn-more2:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.react-bg {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+}
+.node-bg {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+}
+.mongo-bg {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+}
 
 /* footer support section */
 
