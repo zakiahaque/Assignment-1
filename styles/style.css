@@ -171,10 +171,55 @@ nav {
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
-
 }
+
+.btn-learn-more {
+  cursor: pointer;
+}
+
 /* My Inspiration */
 
+.my-inspiration-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24;
+  width: 852px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.my-inspiration-title {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.my-inspiration-description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.video-container {
+  margin: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video {
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 150px;
+}
 /* My Current Target */
 
 /* My Next Target */
